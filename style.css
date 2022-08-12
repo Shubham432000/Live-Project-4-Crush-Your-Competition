@@ -13,6 +13,9 @@ body{
     justify-content: space-around;
     
 }
+.navbar-container>div>img{
+    height: 30px;
+}
 
 [aria-label="navbar"]{
     margin-top: 30px;
@@ -27,9 +30,10 @@ body{
 .list-item{
     list-style-type: none;
     text-decoration: none;
-    margin: 0px 10px;
+    margin: 0px 15px;
     font-size: 17px;
     color: #758283;
+   
 }
 .grow-list{
     margin-top: 5px;
@@ -48,6 +52,12 @@ body{
 .banner-container{
     display: flex;
     flex-direction: row;
+}
+.banner-container>div>img{
+    height: 450px;
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 40px;
 }
 .heading-text{
     margin-top: 100px;
