@@ -16,7 +16,6 @@ body{
 .navbar-container>div>img{
     height: 30px;
 }
-
 [aria-label="navbar"]{
     margin-top: 30px;
 }
@@ -53,12 +52,6 @@ body{
     display: flex;
     flex-direction: row;
 }
-.banner-container>div>img{
-    height: 450px;
-    width: 600px;
-    margin-left: 300px;
-    margin-top: 40px;
-}
 .heading-text{
     margin-top: 100px;
     font-size: 40px;
@@ -86,4 +79,79 @@ span{
     padding: 15px 30px;
     background-color: #5A20CB;
     font-family: Poppins;
+}
+.banner-container>div>img{
+    height: 450px;
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+@media screen and (max-width:500px){
+.navbar-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.navbar-container>div>img{
+    height: 20px;
+    margin-left: 0px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 500px;
+}
+.list-item{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 13px;
+    color: #758283;
+   
+}
+.nav-button{
+    padding: 5px 10px;
+    background-color: #5A20CB;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.banner-container{
+    display: flex;
+    flex-direction: column;
+}
+.banner-container>div>img{
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.heading-text{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 80px;
+    color: #120E43;
+    font-family: Poppins ;
+}
+span{
+    color: #2827CC;
+}
+.description{
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 100;
+    margin-left: 80px;
+    font-family: Poppins;
+}
+.nav-button.btn{
+    color: white;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 80px;
+    padding: 5px 10px;
+    background-color: #5A20CB;
+    font-family: Poppins;
+}
 }

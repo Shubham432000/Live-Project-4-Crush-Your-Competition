@@ -4,7 +4,8 @@
 
 #### I have build a template of HTML and CSS Project using my core CSS skill
 
-> My Live Deployed Website Link [Website](https://lucent-gumdrop-699ce4.netlify.app)  
+#### It took me 2 hours to do the project
+> My Live Deployed Website Link [Website](https://friendly-puffpuff-214013.netlify.app)  
 
 ![download (3)](https://user-images.githubusercontent.com/101961231/181934075-dad6289d-706c-4f88-ad59-bf2b4c1744d2.png)
 
@@ -19,4 +20,3 @@
 7. I Learn image property like absolute,relative, border-radius  
 8. I also Learn Box-Shadow Property  
 9. I also Learn Flex Propert like Flex-direction row and coloumn & justify-content  
-10. I also Learn Z-index-property like 1,2,3
